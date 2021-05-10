@@ -44,7 +44,7 @@ randomize
 
 cd ..
 
-#File time
+#Battle randomization
 
 cd mods
 cd data00000/battle
@@ -53,4 +53,39 @@ mv battle_pack.bin battle_pack.bin.bak
 mv battle_pack2.bin battle_pack.bin
 mv battle_pack.bin.bak battle_pack2.bin
 
-cd 
+cd assist
+randomize
+cd ..
+
+cd bike
+randomize
+cd ..
+
+cd boss
+randomize
+cd ..
+
+cd cutin/boko/koma2
+randomize
+cd ..
+
+cd koma3
+randomize
+cd ..
+
+cd koma4
+randomize
+cd ..
+
+cd syoudaku
+randomize
+cd ..
+
+cd syoukan
+randomize
+cd ..
+
+cd tokusyu
+randomize
+cd ..
+cd ..
