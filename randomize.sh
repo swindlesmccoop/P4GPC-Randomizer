@@ -3,8 +3,6 @@
 #PLEASE READ THE README FIRST!!!!!!!!!!!!!
 
 #Run this script at your own risk. I am not responsible for an unplayable experience.
-#If you paid for the game on Steam, simply verify file integrity. If you didn't, make a backup first.
-#If you don't know how to do this, Google is your friend.
 
 #Begin randomization
 
