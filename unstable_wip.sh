@@ -47,7 +47,7 @@ cd ..
 #Battle randomization
 
 cd mods
-cd data00000/battle
+cd data_e/battle
 
 mv battle_pack.bin battle_pack.bin.bak
 mv battle_pack2.bin battle_pack.bin
@@ -88,4 +88,8 @@ cd ..
 cd tokusyu
 randomize
 cd ..
+cd ..
+
+cd commu/cutin
+randomize
 cd ..
