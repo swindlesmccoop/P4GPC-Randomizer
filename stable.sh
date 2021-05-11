@@ -10,4 +10,40 @@ paste <(printf "%s\n" *) <(printf "%s\n" * | shuf) |
 for f in *.new; do mv -- "$f" "${f%.new}"; done 
 }
 
-#Start randomization
+#bustups and stuff
+
+cd data_e/bustup
+randomize
+cd ..
+
+cd camp/bustup
+randomize
+cd ..
+
+cd persona
+randomize
+cd ..
+
+cd card/arcana
+randomize
+cd ..
+
+cd misc
+randomize
+cd ..
+
+cd persona
+randomize
+cd ..
+
+cd sarcana
+randomize
+cd ..
+
+cd commu/bustup
+randomize
+cd ..
+
+cd card
+randomize
+cd ..
