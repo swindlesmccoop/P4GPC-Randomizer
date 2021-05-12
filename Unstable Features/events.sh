@@ -351,4 +351,3 @@ cd ..
 
 cd e900
 randomize
-cd ..
