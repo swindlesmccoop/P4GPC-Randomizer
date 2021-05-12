@@ -3,6 +3,12 @@
 #this will randomize all .pm1 files. i have no idea if it will work, so it's going into unstable features for now.
 #i'm also too lazy to verify that all of the folder names here exist.
 
+function randomize {
+paste <(printf "%s\n" *) <(printf "%s\n" * | shuf) |
+  while IFS=$'\t' read -r from to; do mv -- "$from" "$to.new"; done
+for f in *.new; do mv -- "$f" "${f%.new}"; done 
+}
+
 cd commu/event/e010
 randomize
 cd ..
