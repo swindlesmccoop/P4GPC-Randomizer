@@ -8,7 +8,7 @@ Excuse the sloppiness/repetitiveness of the script. If it ain't broke don't fix 
 ## Instructions
 Use Preapp File to dump data_e somewhere.
 
-Run stable.sh. Don't use the randomizer if you don't know how to do this - you don't deserve to be using a computer if you can't figure it out for yourself. It will most likely run best under Linux, so go install Ubuntu or Mint or something if you haven't already and mount your Windows install and run the script in there.
+Run stable.sh in the folder that you just extracted all the files into. Don't use the randomizer if you don't know how to do this - you don't deserve to be using a computer if you can't figure it out for yourself. It will most likely run best under Linux, so go install Ubuntu or Mint or something if you haven't already and mount your Windows install and run the script in there.
 
 Put the folder that you randomized the files of into your mods directory. If you don't know how to load mods on P4G PC, you don't deserve to be modding the game.
 
