@@ -11,3 +11,6 @@ Use Preapp File to dump data_e somewhere.
 Run stable.sh. Don't use the randomizer if you don't know how to do this - you don't deserve to be using a computer if you can't figure it out for yourself. It will most likely run best under Linux, so go install Ubuntu or Mint or something if you haven't already and mount your Windows install and run the script in there.
 
 Put the folder that you randomized the files of into your mods directory. If you don't know how to load mods on P4G PC, you don't deserve to be modding the game.
+
+# Thanks for reading the readme
+![alt text](https://github.com/swindlesmccoop/P4GPC-Randomizer/blob/main/1.jpg?raw=true)
