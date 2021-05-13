@@ -1,4 +1,4 @@
-### Why this ecists
+### Why this exists
 Randomizers are fun, and there's not really one for P4G on Windows that really randomizes everything, just encounters.
 
 ### Credits
