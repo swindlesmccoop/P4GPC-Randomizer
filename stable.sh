@@ -47,3 +47,16 @@ cd ..
 cd card
 randomize
 cd ..
+cd ..
+
+#we should be back inside data_e now
+
+cd field/lmap_spr
+randomize
+cd ..
+cd ..
+
+cd init_free/battle
+randomize
+cd ..
+cd ..
