@@ -12,7 +12,14 @@ Randomizers are fun, and there's not really one for P4G on Windows that really r
 Features that might crash the game sometimes or have not been tested enough to have been added to the stable script.
 
 ### How do I use this?
-See the [readme](https://github.com/swindlesmccoop/P4GPC-Randomizer#readme)
+1. Set up P4G for modding
+2. Dump data_e into any folder you would like, preferrably one that does not require Admin access.
+3. Run the script
+4. Put the dump into your mods directory
+5. Run the game
 
 ### I don't know how to run this?
 Google is your friend. If you're not competent enough to do a Google search, you don't deserve to use the randomizer.
+
+### Does this work on Vita?
+lol u wish sucker
