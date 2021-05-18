@@ -5,6 +5,9 @@ This uses bash instead of C# to randomize the files in P4G for Windows because I
 
 Excuse the sloppiness/repetitiveness of the script(s). If it ain't broke don't fix it, you know? (If you want to commit though I would probably push anything that works and takes up less space).
 
+## Read more at
+https://swindlesmccoop.github.io/P4GPC-Randomizer/
+
 ## Instructions
 Use Preapp File to dump data_e somewhere.
 
