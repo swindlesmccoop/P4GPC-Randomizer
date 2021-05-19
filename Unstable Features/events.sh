@@ -4,6 +4,7 @@
 #i'm also too lazy to verify that all of the folder names here exist.
 #i've forgotten a lot about how the game plays cutscenes so maybe this will permanently break saves? i dont remember if it uses pm1 or bf.
 
+#randomize function
 function randomize {
 paste <(printf "%s\n" *) <(printf "%s\n" * | shuf) |
   while IFS=$'\t' read -r from to; do mv -- "$from" "$to.new"; done
