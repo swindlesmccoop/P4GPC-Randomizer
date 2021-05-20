@@ -1,0 +1,100 @@
+#!/bin/sh
+
+#randomize function
+function randomize {
+paste <(printf "%s\n" *) <(printf "%s\n" * | shuf) |
+  while IFS=$'\t' read -r from to; do mv -- "$from" "$to.new"; done
+for f in *.new; do mv -- "$f" "${f%.new}"; done 
+}
+
+#####################################################################################################################
+
+#im gonna look at these files some time to see if they can be swapped without crashes
+#cd battle
+#mv battle_pack.bin battle_pack.bin.bak
+#mv battle_pack2.bin battle_pack.bin
+#mv battle_pack.bin.bak battle_pack2.bin
+
+
+#mv bsv105.bvp bsv105.bvp.bak
+#mv bsv108.bvp bsv105.bvp
+#mv bsv105.bvp.bak bsv108.bvp
+
+#####################################################################################################################
+
+cd battle/assits
+randomize
+cd ..
+
+cd bike
+randomize
+cd ..
+
+cd boss
+mkdir bin
+mkdir flow
+mkdir bf
+mkdir bed
+mv *.bin bin/
+mv *.bf.flow flow/
+mv *.bf bf/
+mv *.bed bed/
+cd bin
+randomize
+cd ..
+cd flow
+randomize
+cd ..
+cd bf
+randomize
+cd ..
+cd bed
+randomize
+mv *.bed ..
+cd ..
+cd bin
+mv *.bin ..
+cd ..
+cd flow
+mv *.bf.flow ..
+cd ..
+cd bf
+mv *.bf ..
+cd ..
+rm -r bin flow bf bed
+cd ..
+
+cd cutin/boko/koma2
+randomize
+cd ..
+
+cd koma3
+randomize
+cd ..
+
+cd koma4
+randomize
+cd ..
+cd ..
+
+cd syoudaku
+randomize
+cd ..
+
+cd syoukan
+randomize
+cd ..
+
+cd tokusyu
+randomize
+cd ..
+cd ..
+
+cd result
+mv simple_s.arc simple_s.arc.bak
+mv simple_w.arc simple_s.arc
+mv simple_s.arc.bak simple_w.arc
+
+cd union
+randomize
+cd ..
