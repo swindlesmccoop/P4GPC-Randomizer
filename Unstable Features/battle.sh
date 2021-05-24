@@ -22,7 +22,7 @@ for f in *.new; do mv -- "$f" "${f%.new}"; done
 
 #####################################################################################################################
 
-cd battle/assits
+cd battle/assist
 randomize
 cd ..
 
@@ -31,37 +31,52 @@ randomize
 cd ..
 
 cd boss
-mkdir bin
-mkdir flow
-mkdir bf
-mkdir bed
-mv *.bin bin/
-mv *.bf.flow flow/
-mv *.bf bf/
-mv *.bed bed/
-cd bin
-randomize
-cd ..
-cd flow
-randomize
-cd ..
-cd bf
-randomize
-cd ..
-cd bed
-randomize
-mv *.bed ..
-cd ..
-cd bin
-mv *.bin ..
-cd ..
-cd flow
-mv *.bf.flow ..
-cd ..
-cd bf
-mv *.bf ..
-cd ..
-rm -r bin flow bf bed
+
+#####################################################################################################################
+#ignore all of this. this is a fallback in case i test the function and it turns out that it doesn't work like i wanted it to.
+#mkdir bin
+#mkdir flow
+#mkdir bf
+#mkdir bed
+#mv *.bin bin/
+#mv *.bf.flow flow/
+#mv *.bf bf/
+#mv *.bed bed/
+#cd bin
+#randomize
+#cd ..
+#cd flow
+#randomize
+#cd ..
+#cd bf
+#randomize
+#cd ..
+#cd bed
+#randomize
+#mv *.bed ..
+#cd ..
+#cd bin
+#mv *.bin ..
+#cd ..
+#cd flow
+#mv *.bf.flow ..
+#cd ..
+#cd bf
+#mv *.bf ..
+#cd ..
+#rm -r bin flow bf bed
+#####################################################################################################################
+
+for f in `find . -type f`; do
+    mkdir -p ${f##*.}
+    mv $f ${f##*.}
+done
+for d in */; do
+    cd $d
+    randomize
+    cd ..
+done
+mv */* .
 cd ..
 
 cd cutin/boko/koma2
