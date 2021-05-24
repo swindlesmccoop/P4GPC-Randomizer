@@ -13,6 +13,18 @@ cd shader
 randomize
 cd ..
 
+cd battle/bike
+randomize
+cd ..
+
+cd effect
+randomize
+cd ..
+
+cd union
+randomize
+cd ..
+
 cd system/tool/effect
 randomize
 cd ..
