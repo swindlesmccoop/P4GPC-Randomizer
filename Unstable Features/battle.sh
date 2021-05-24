@@ -15,7 +15,6 @@ for f in *.new; do mv -- "$f" "${f%.new}"; done
 #mv battle_pack2.bin battle_pack.bin
 #mv battle_pack.bin.bak battle_pack2.bin
 
-
 #mv bsv105.bvp bsv105.bvp.bak
 #mv bsv108.bvp bsv105.bvp
 #mv bsv105.bvp.bak bsv108.bvp
