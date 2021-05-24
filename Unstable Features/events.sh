@@ -1,8 +1,7 @@
 #!/bin/sh
 
 #this will randomize all .pm1 files. i have no idea if it will work, so it's going into unstable features for now.
-#i'm also too lazy to verify that all of the folder names here exist.
-#i've forgotten a lot about how the game plays cutscenes so maybe this will permanently break saves? i dont remember if it uses pm1 or bf.
+#might break saves.
 
 #randomize function
 function randomize {
