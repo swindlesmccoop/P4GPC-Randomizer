@@ -27,4 +27,6 @@ cd ..
 
 cd system/tool/effect
 randomize
-cd ..
+
+cd sample
+randomize
