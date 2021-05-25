@@ -7,7 +7,7 @@ paste <(printf "%s\n" *) <(printf "%s\n" * | shuf) |
 for f in *.new; do mv -- "$f" "${f%.new}"; done 
 }
 
-#discrimination and randomization function
+#discrimination + randomization function
 function poggers {
 for f in `find . -type f`; do
     mkdir -p ${f##*.}
@@ -54,13 +54,17 @@ cd ..
 #go into the field model directory
 #not touching kasa_toumei.amd until i know what it is
 cd model/field
-mv kasa_toumei.amd ..
+mkdir temp
+mv kasa_toumei.amd temp/
 randomize
+cd temp
+mv kasa_toumei.amd ..
 cd ..
-mv kasa_toumei.amd /field
+cd ..
 
 #npc models
 #not sure if the gmo and mds files are relevant so im gonna move them into their own folder
+cd npc
 mkdir temp
 mv *.gmo /temp
 mv *.mds /temp
@@ -68,3 +72,36 @@ randomize
 cd temp
 mv *.gmo ..
 mv *.mds ..
+cd ..
+cd ..
+
+cd npc2
+randomize
+cd ..
+
+cd pack
+mkdir bc
+mkdir em
+mv bc*.pac bc/
+mv em*.pac em/
+cd bc
+randomize
+mv *.pac ..
+cd ..
+cd em
+randomize
+mv *.pac ..
+rm -r bc em
+cd ..
+
+cd persona
+randomize
+cd ..
+
+cd symbol
+randomize
+cd ..
+
+cd weapon
+randomize
+cd ..
