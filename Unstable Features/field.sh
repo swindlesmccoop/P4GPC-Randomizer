@@ -38,8 +38,10 @@ cd ..
 
 cd pack
 mkdir rmd
+mkdir fdarc
 mkdir arc
 mv *_rmd.arc rmd/
+mv fd*.arc fdarc/
 mv *.arc arc/
 cd rmd
 randomize
