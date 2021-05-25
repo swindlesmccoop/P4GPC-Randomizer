@@ -36,3 +36,8 @@ randomize
 cd ..
 cd ..
 cd ..
+
+for d in tex2
+do
+    ( cd "$d" && randomize )
+done
