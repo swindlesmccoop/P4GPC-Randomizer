@@ -27,7 +27,7 @@ Randomizers are fun, and there's not really one for P4G on Windows that really r
 4. Go into your data_e directory
 5. Move the `stable.sh` script into your extracted data_e directory
 6. Mark `stable.sh` as executable by performing the command `chmod +x stable.sh`
-7. Run `sh stable.sh`
+7. Run `sh -e stable.sh`
 8. Move any unstable scripts into the data_e directory
 9. Peform steps 6 and 7 on each script that you desire
 10. Move the randomized data_e into your mods directory.
