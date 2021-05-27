@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 #randomize function
 function randomize {
