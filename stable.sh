@@ -2,7 +2,7 @@
 
 #PLEASE READ THE README FIRST!!!!!!!!!!!!!
 
-#Run this script at your own risk. I am not responsible for an unplayable experience.
+#Run this script at your own risk. I am not responsible for an unplayable experience (or accidentally screwing up part of your OS. Sorry, Tekka.)
 
 function randomize {
 paste <(printf "%s\n" *) <(printf "%s\n" * | shuf) |
@@ -12,7 +12,7 @@ for f in *.new; do mv -- "$f" "${f%.new}"; done
 
 #bustups and stuff
 
-cd data_e/bustup
+cd bustup
 randomize
 cd ..
 
