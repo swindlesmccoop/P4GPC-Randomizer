@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 #i have no idea if any of these files are used, but we're just gonna roll with it
 
 #randomize function
