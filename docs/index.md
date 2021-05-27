@@ -7,24 +7,35 @@ Randomizers are fun, and there's not really one for P4G on Windows that really r
 - [ShrineFox](https://github.com/shrinefox) for the original randomizer that gave me the inspiration to make my own
 - [Pioziomgames](https://github.com/Pioziomgames) for a tree listing of data_e
 - [Furkan](https://github.com/FMudanyali) for helping with my stupid questions
-- [Natano](https://github.com/natano) for giving me the "poggers" function. Seriously - look at the scripts for yourself, you'll find it
+- [Natano](https://github.com/natano) for giving me the "poggers" function, seriously - look at the scripts for yourself, you'll find it (I named it, though)
+- [TGE](https://github.com/TGEnigma) for the mod loader and Preapp File
 - The collective of the P4G Modding Discord (at least, that's what it still is in my heart)
+
+## Instructions
+
+### Prerequisites
+- A Windows machine (if you use Linux, you're probably smart enough how to use this for yourself)
+- Basic knowledge of using a bash shell
+- [MSYS](https://www.msys2.org/)
+- A version of Persona 4 Golden [set up for modding](https://gamebanana.com/tuts/13379)
+- [TGE's Preapp File](https://github.com/TGEnigma/preappfile/releases/latest/)
+
+### Steps
+1. Dump data_e into any folder you would like using Preapp File
+2. Clone the repo
+3. Open MSYS
+4. Go into your data_e directory
+5. Move the `stable.sh` script into your extracted data_e directory
+6. Mark `stable.sh` as executable by performing the command `chmod +x stable.sh`
+7. Run `sh stable.sh`
+8. Move any unstable scripts into the data_e directory
+9. Peform steps 6 and 7 on each script that you desire
+10. Move the randomized data_e into your mods directory.
 
 ## Questions you may have
 
 ### What are unstable features?
 Features that might crash the game sometimes or have not been tested enough to have been added to the stable script.
-
-### How do I use this?
-1. [Set up Persona 4 Golden for modding](https://gamebanana.com/tuts/13379)
-2. Dump data_e into any folder you would like using [TGE's Preapp File](https://github.com/TGEnigma/preappfile/releases/latest/), preferrably one that does not require Admin access.
-3. Run the [latest stable script](https://github.com/swindlesmccoop/P4GPC-Randomizer/releases/latest)
-4. Run any unstable scripts that you desire (READ THE [README](https://github.com/swindlesmccoop/P4GPC-Randomizer/blob/main/Unstable%20Features/readme.md))
-5. Put the dump into your mods directory
-6. Run the game
-
-### I don't know how to run this?
-Google is your friend. If you're not competent enough to do a Google search, you don't deserve to use the randomizer.
 
 ### Does this work on Vita?
 lol u wish sucker
