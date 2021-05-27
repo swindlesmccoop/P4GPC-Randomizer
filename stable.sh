@@ -55,8 +55,3 @@ cd field/lmap_spr
 randomize
 cd ..
 cd ..
-
-cd init_free/battle
-randomize
-cd ..
-cd ..
