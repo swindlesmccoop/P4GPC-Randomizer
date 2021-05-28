@@ -106,6 +106,8 @@ mv simple_s.arc simple_s.arc.bak
 mv simple_w.arc simple_s.arc
 mv simple_s.arc.bak simple_w.arc
 
+cd ..
+
 cd union
 randomize
 cd ..
