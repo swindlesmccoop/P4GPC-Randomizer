@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 #this will randomize all .pm1 files. i have no idea if it will work, so it's going into unstable features for now.
 #might break saves.
