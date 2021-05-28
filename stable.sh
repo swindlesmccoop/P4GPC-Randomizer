@@ -23,7 +23,7 @@ cd ..
 
 cd persona
 randomize
-cd ..
+cd ../..
 
 cd card/arcana
 randomize
