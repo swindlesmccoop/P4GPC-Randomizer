@@ -9,6 +9,7 @@ Randomizers are fun, and there's not really one for P4G on Windows that really r
 - [Furkan](https://github.com/FMudanyali) for helping with my stupid questions
 - [Natano](https://github.com/natano) for giving me the "poggers" function, seriously - look at the scripts for yourself, you'll find it (I named it, though)
 - [TGE](https://github.com/TGEnigma) for the mod loader and Preapp File
+- [Tekka](https://github.com/TekkaGB) for testing the stable script and making me change something major
 - The collective of the P4G Modding Discord (at least, that's what it still is in my heart)
 
 ## Instructions
