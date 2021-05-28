@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 #PLEASE READ THE README FIRST!!!!!!!!!!!!!
 
