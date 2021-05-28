@@ -39,7 +39,7 @@ cd ..
 
 cd sarcana
 randomize
-cd ..
+cd ../..
 
 cd commu/bustup
 randomize
