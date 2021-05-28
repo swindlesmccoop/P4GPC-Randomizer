@@ -1,5 +1,5 @@
 ## General Info
-This is a work in progress. It is not done yet. Please do not submit any issues until I publish an actual release.
+This is a work in progress. Please submit detailed issues in the `Issues` tab. Do not spam the `#p4g-help` channel on the Discord!
 
 This uses bash instead of C# to randomize the files in P4G for Windows because I had no idea what I'm doing with code that someone else wrote in a langauge I barely know, plus scripting is more fun and efficient than using a GUI.
 
