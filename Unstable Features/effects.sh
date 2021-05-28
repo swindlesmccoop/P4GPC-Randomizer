@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 #this is playing with shaders - expect things to get crazy
 
