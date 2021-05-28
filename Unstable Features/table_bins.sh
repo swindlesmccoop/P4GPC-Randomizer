@@ -9,13 +9,12 @@ for f in *.new; do mv -- "$f" "${f%.new}"; done
 }
 
 #make directories
+cd field/table
 mkdir hbin
 mkdir nbin
 mkdir etc
 
-#move files to respective directories
-cd field/table
-mv h*.bin hbin/
+#move files to respective directoriesmv h*.bin hbin/
 mv n*.bin nbin/
 mv *.bin etc/
 
