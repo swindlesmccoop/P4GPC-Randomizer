@@ -45,10 +45,14 @@ cd commu/bustup
 randomize
 cd ..
 
+echo Bustups randomized!
+
 cd card
 randomize
 cd ..
 cd ..
+
+echo Card images randomized!
 
 #we should be back inside data_e now
 
@@ -56,3 +60,5 @@ cd field/lmap_spr
 randomize
 cd ..
 cd ..
+
+echo Small map sprites randomized!

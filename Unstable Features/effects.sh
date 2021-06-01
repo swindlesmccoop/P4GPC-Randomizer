@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-#this is playing with shaders - expect things to get crazy
+#the shaders are unused but who cares
 
 #randomize function
 function randomize {
@@ -13,21 +13,27 @@ for f in *.new; do mv -- "$f" "${f%.new}"; done
 cd shader
 randomize
 cd ..
+echo Unused vita shaders randomized!
 
 cd battle/bike
 randomize
 cd ..
+echo Bike(?) randomized!
 
 cd effect
 randomize
 cd ..
+echo Battle effects randomized!
 
 cd union
 randomize
 cd ..
+echo Union(?) randomized!
 
 cd system/tool/effect
 randomize
+echo System tool effects randomized!
 
 cd sample
 randomize
+echo All effects randomized!

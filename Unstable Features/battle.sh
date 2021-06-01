@@ -26,6 +26,8 @@ cd battle/assist
 randomize
 cd ..
 
+echo Assistance stuff randomized!
+
 cd boss
 
 #####################################################################################################################
@@ -75,6 +77,9 @@ done
 mv */* .
 cd ..
 
+echo Boss stuff randomized!
+
+#cutins
 cd cutin/boko/koma2
 randomize
 cd ..
@@ -87,6 +92,8 @@ cd koma4
 randomize
 cd ..
 cd ..
+
+echo Cutins randomized!
 
 cd syoudaku
 randomize
@@ -101,6 +108,8 @@ randomize
 cd ..
 cd ..
 
+echo Random battle textures randomized!
+
 cd result
 mv simple_s.arc simple_s.arc.bak
 mv simple_w.arc simple_s.arc
@@ -111,3 +120,5 @@ cd ..
 cd union
 randomize
 cd ..
+
+echo Other random stuff randomized!

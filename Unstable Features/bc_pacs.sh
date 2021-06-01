@@ -17,11 +17,13 @@ mv *.se /temp
 #moving the em pacs into their own folder so that i can separate bc and em pacs and hopefully bring rate of crashes down
 mkdir em
 mv em*.pac /em
+echo PAC files moved
 
 #randomize pack and em
 randomize
 cd em
 randomize
+echo PAC files randomized!
 
 #bring files back into pack folder
 mv *.pac ..
@@ -34,3 +36,4 @@ cd ..
 #clean up temp folders
 rm -r /temp
 rm -r /em
+echo Temp folders gone!
