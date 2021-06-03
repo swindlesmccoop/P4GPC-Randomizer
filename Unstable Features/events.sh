@@ -15,17 +15,21 @@ cd commu/event
 
 for d in */; do
     cd $d
+    echo Making temp directories...
     mkdir pm1/ pm2/ pm3/
+    echo Moving files...
     mv *.pm1 pm1/
     mv *.pm2 pm2/
-#    mv *.pm3 pm3/
+    mv *.pm3 pm3/
     for d in */; do
         cd $d
+        cwd=$(pwd)
         randomize
+        echo Randomizing $cwd...
         cd ..
     done
-    randomize
+    mv */* .
+    echo Cleaning up temp directories...
+    rm -rf pm1/ pm2/ pm3/
     cd ..
 done
-mv */* .
-cd ..
