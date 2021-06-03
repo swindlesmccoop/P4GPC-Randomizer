@@ -15,5 +15,4 @@ echo Only continue when you are done installing the program!
 pause
 
 cd C:/msys64/
-dir
-pause
+msys
