@@ -15,7 +15,6 @@ echo Only continue when you are done installing the program!
 pause
 
 cd C:/msys64/
-mkdir scripts
-cd scripts
-
-curl 
+curl https://raw.githubusercontent.com/swindlesmccoop/P4GPC-Randomizer/main/idiotproof.sh --output idiotproof.sh
+msys2.exe chmod +x idiotproof.sh
+msys2.exe sh idiotproof.sh
