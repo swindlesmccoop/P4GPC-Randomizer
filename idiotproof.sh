@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/bin/sh
+
+cd ..
+cd ..
 
 echo "Please drag and drop your data_e dump onto here":
 read dump
