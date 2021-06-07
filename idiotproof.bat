@@ -1,7 +1,7 @@
 @echo off
 
-mkdir setup
-cd setup
+::go into the documents folder and get stuff prepared
+cd C:/Users/%username%/Documents
 curl https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20210419.exe --output msys.exe
 
 set /p answer=This will open an installer window. Hit next on every single prompt at the bottom right. Press "Y" if you understand. (Y/N)
@@ -13,6 +13,7 @@ msys.exe
 
 echo Only continue when you are done installing the program!
 pause
+cd ..
 
 cd C:/msys64/
 curl https://raw.githubusercontent.com/swindlesmccoop/P4GPC-Randomizer/main/idiotproof.sh --output idiotproof.sh
