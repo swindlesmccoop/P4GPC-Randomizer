@@ -1,7 +1,7 @@
 @echo off
 
-::go into the documents folder and get stuff prepared
-cd C:/Users/%username%/Documents
+::download and install msys
+cd C:/Users/%username%/Downloads
 curl https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20210419.exe --output msys.exe
 
 set /p answer=This will open an installer window. Hit next on every single prompt at the bottom right. Press "Y" if you understand. (Y/N)
@@ -11,7 +11,7 @@ set /p answer=This will open an installer window. Hit next on every single promp
 :MSYS
 msys.exe
 
-echo Only continue when you are done installing the program!
+echo Only continue when you are DONE installing the program!
 pause
 cd ..
 
