@@ -17,11 +17,10 @@ Randomizers are fun, and there's not really one for P4G on Windows that really r
 ### Prerequisites
 - A Windows machine (if you use Linux, you're probably smart enough how to use this for yourself)
 - Basic knowledge of using a bash shell
-- [MSYS](https://www.msys2.org/)
 - A version of Persona 4 Golden [set up for modding](https://gamebanana.com/tuts/13379)
 - [TGE's Preapp File](https://github.com/TGEnigma/preappfile/releases/latest/)
 
-### Level 1 Crook Steps
+### Level 1 Crook Steps (***Noobs and Beginners should follow this!***)
 1. Dump data_e into any folder you would like using Preapp File by dropping `data_e.cpk` from your P4G install onto the `preappfile.exe`
 2. Make sure the folder is named `data_e` and move it to the root of your C:/ drive
 3. Download [`idiotproof.bat`](https://raw.githubusercontent.com/swindlesmccoop/P4GPC-Randomizer/main/idiotproof.bat) by following the previous link, pressing `Ctrl`+`S`, and saving it as `idiotproof.bat`, NOT `idiotproof.bat.txt`
@@ -29,11 +28,11 @@ Randomizers are fun, and there's not really one for P4G on Windows that really r
 5. Follow the instructions that it gives you
 6. Put the final output (when all of the black windows have disappeared) into wherever you load your mods from (`/Day/mods/`, Aemulus, Mod Compendium, etc.)
 
-### Level 100 Mafia Boss Steps
+### Level 100 Mafia Boss Steps ("Advanced")
 1. Dump data_e into any folder you would like using Preapp File
-2. Clone this repo
-3. Open MSYS
-4. `cd` into your data_e directory
+2. Download and install [MSYS](https://msys2.org/)
+3. Clone this repo (use `git clone https://github.com/swindlesmccoop/P4GPC-Randomizer.git` in MSYS for extra points 😃)
+4. `cd` into your data_e directory (in MSYS, not Command Prompt)
 5. Move the `stable.sh` script into your extracted data_e directory
 6. Mark `stable.sh` as executable by performing the command `chmod +x stable.sh`
 7. Run `sh -e stable.sh`
@@ -45,6 +44,7 @@ Randomizers are fun, and there's not really one for P4G on Windows that really r
 
 ### What are unstable features?
 Features that might crash the game sometimes or have not been tested enough to have been added to the stable script.
-
 ### Does this work on Vita?
 lol u wish sucker
+### Why did you shill for noobs by creating installer scripts?
+I had nothing else to do, and I *guess* it will expand the range of people who can use the randomizer without any knowledge of computers as well.
