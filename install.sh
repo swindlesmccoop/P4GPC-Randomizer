@@ -1,6 +1,9 @@
 #!/bin/sh
 set -e
-cd /c/data_e
+
+#make username variable by assigning "whoami" output to it
+username=$(whoami)
+cd /c/Users/"$username"/Documents/data_e
 
 #makes sure that it's actually data_e and not some other folder
 if [[ -d battle ]]
@@ -15,8 +18,9 @@ yes | pacman -S git > temp.txt
 rm temp.txt
 git clone https://github.com/swindlesmccoop/P4GPC-Randomizer.git
 
+#clean up unneeded files
 cd P4GPC-Randomizer
-rm idiotproof.sh
+rm install.sh
 cd 'Unstable Features'
 mv *.sh ..
 cd ..
@@ -24,5 +28,6 @@ mv *.sh ..
 cd ..
 rm -rf P4GPC-Randomizer
 
+#mark as executable and execute all scripts
 chmod +x *.sh
-sh *.sh
+sh -e *.sh

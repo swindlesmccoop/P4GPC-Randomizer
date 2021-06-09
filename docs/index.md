@@ -9,20 +9,20 @@ Randomizers are fun, and there's not really one for P4G on Windows that really r
 - [Furkan](https://github.com/FMudanyali) for helping with my stupid questions
 - [Natano](https://github.com/natano) for giving me the "poggers" function, seriously - look at the scripts for yourself, you'll find it (I named it, though)
 - [TGE](https://github.com/TGEnigma) for the mod loader and Preapp File
-- [Tekka](https://github.com/TekkaGB) for testing the stable script and making me change something major
+- [Tekka](https://github.com/TekkaGB) for testing scripts and helping with changes
 - The collective of the P4G Modding Discord (at least, that's what it still is in my heart)
 
 ## Instructions
 
 ### Prerequisites
-- A Windows machine (if you use Linux, you're probably smart enough how to use this for yourself)
-- Basic knowledge of using a bash shell
+- A Windows machine (if you use Linux, you don't need me to tell you what to do)
 - A version of Persona 4 Golden [set up for modding](https://gamebanana.com/tuts/13379)
+- Running [this installer](https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.ps1) by downloading it and right clicking on it and pressing `Run with PowerShell`
 - [TGE's Preapp File](https://github.com/TGEnigma/preappfile/releases/latest/)
 
-### Level 1 Crook Steps (***Noobs and Beginners should follow this!***)
-1. Dump data_e into any folder you would like using Preapp File by dropping `data_e.cpk` from your P4G install onto the `preappfile.exe`
-2. Make sure the folder is named `data_e` and move it to the root of your C:/ drive
+### Level 1 Crook Steps (*Noobs and Beginners should follow this!*)
+1. Dump data_e into any folder you would like using Preapp File by dropping `data_e.cpk` from your P4G install onto the `preappfile.exe`, NOT INTO THE FOLDER, ON TOP OF THE EXE FILE
+2. Make sure the folder is named `data_e` and move it to your Documents folder
 3. Download [`install.bat`](https://raw.githubusercontent.com/swindlesmccoop/P4GPC-Randomizer/main/install.bat) by following the previous link, pressing `Ctrl`+`S`, and saving it as `install.bat`, NOT `install.bat.txt`
 4. Go to where you downloaded the file and double click it
 5. Follow the instructions that it gives you
@@ -37,7 +37,7 @@ Randomizers are fun, and there's not really one for P4G on Windows that really r
 6. Mark `stable.sh` as executable by performing the command `chmod +x stable.sh`
 7. Run `sh -e stable.sh`
 8. Move any unstable scripts into the data_e directory
-9. Peform steps 6 and 7 on each script that you desire (can easily be done with `chmod +x *.sh` and `sh *.sh`)
+9. Peform steps 6 and 7 on each script that you desire (can easily be done with `chmod +x *.sh` and `sh -e *.sh`)
 10. Move the randomized data_e into your mods directory.
 
 ## Questions you may have
