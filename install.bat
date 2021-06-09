@@ -17,6 +17,6 @@ cd ..
 
 ::run shell scripts
 cd C:/msys64/
-curl https://raw.githubusercontent.com/swindlesmccoop/P4GPC-Randomizer/main/idiotproof.sh --output idiotproof.sh
-msys2.exe chmod +x idiotproof.sh
-msys2.exe sh idiotproof.sh
+curl https://raw.githubusercontent.com/swindlesmccoop/P4GPC-Randomizer/main/install.sh --output install.sh
+msys2.exe chmod +x install.sh
+msys2.exe sh install.sh
