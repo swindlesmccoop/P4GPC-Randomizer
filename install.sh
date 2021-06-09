@@ -3,12 +3,14 @@ set -e
 
 #make username variable by assigning "whoami" output to it
 username=$(whoami)
+echo Entering directory...
 cd /c/Users/"$username"/Documents/data_e
 
 #makes sure that it's actually data_e and not some other folder
+echo Checking validity of dump...
 if [[ -d battle ]]
 then
-    echo "Getting ready for randomization..."
+    echo Getting ready for randomization...
 else
     echo No valid data_e dump found! Exiting... && sleep 5 && exit
 fi
