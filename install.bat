@@ -4,19 +4,21 @@
 cd C:/Users/%username%/Downloads
 curl https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20210419.exe --output msys.exe
 
-set /p answer=This will open an installer window. Hit next on every single prompt at the bottom right. Press "Y" if you understand. (Y/N)
-   if /i "%answer:~,1%" EQU "Y" goto MSYS
-   if /i "%answer:~,1%" EQU "N" exit
+echo.
 
-:MSYS
+echo Accepting prompt will open installer. Hit next on every prompt given.
+pause
 msys.exe
 
 echo Only continue when you are DONE installing the program!
 pause
 cd ..
 
-::run shell scripts
-cd C:/msys64/
-curl https://raw.githubusercontent.com/swindlesmccoop/P4GPC-Randomizer/main/install.sh --output install.sh
-msys2.exe chmod +x install.sh
-msys2.exe sh install.sh
+::run shell script
+curl https://raw.githubusercontent.com/swindlesmccoop/P4GPC-Randomizer/main/install.sh --output C:/Users/%username%/Downloads/install.sh
+C:/msys64/msys2.exe chmod +x install.sh
+
+::timeout here so that it can actually chmod and not conflict with command below
+timeout /t 30
+C:/msys64/msys2.exe sh install.sh
+
