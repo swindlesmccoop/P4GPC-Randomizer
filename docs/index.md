@@ -26,7 +26,7 @@ Randomizers are fun, and there's not really one for P4G on Windows that really r
 3. Download [`install.bat`](https://raw.githubusercontent.com/swindlesmccoop/P4GPC-Randomizer/main/install.bat) by following the previous link, pressing `Ctrl`+`S`, and saving it as `install.bat`, NOT `install.bat.txt`
 4. Go to where you downloaded the file and double click it
 5. Follow the instructions that it gives you
-6. Put the final output (when all of the black windows have disappeared) into wherever you load your mods from (`/Day/mods/`, Aemulus, Mod Compendium, etc.)
+6. Put the final output (when all of the black windows have disappeared) into wherever you load your mods from (Game install's `mods` folder, Aemulus, Mod Compendium, etc.)
 
 ### Level 100 Mafia Boss Steps ("Advanced")
 1. Dump data_e into any folder you would like using Preapp File
