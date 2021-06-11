@@ -2,13 +2,13 @@
 
 ::download and install msys
 cd C:/Users/%username%/Downloads
-::curl https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20210419.exe --output msys.exe
+curl https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20210419.exe --output msys.exe
 
 echo.
 
 echo Accepting prompt will open installer. Hit next on every prompt given.
 pause
-::msys.exe
+msys.exe
 echo.
 
 echo Only continue when you are DONE installing the program!
