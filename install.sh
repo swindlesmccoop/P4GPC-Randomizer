@@ -31,4 +31,5 @@ rm -rf P4GPC-Randomizer
 
 #mark as executable and execute all scripts
 chmod +x *.sh
-sh -e *.sh
+cd ..
+find data_e/ -maxdepth 1 -type f -executable -name '*.sh' -exec {} \;
