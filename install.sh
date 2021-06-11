@@ -16,8 +16,7 @@ else
 fi
 
 #tells the system to install/update git with no prompt or output to user
-yes | pacman -S git > temp.txt
-rm temp.txt
+yes | pacman -S git > /dev/null
 git clone https://github.com/swindlesmccoop/P4GPC-Randomizer.git
 
 #clean up unneeded files
