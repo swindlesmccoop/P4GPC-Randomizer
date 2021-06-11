@@ -22,7 +22,7 @@ Randomizers are fun, and there's not really one for P4G on Windows that really r
 
 ### Level 1 Crook Steps (*Noobs and Beginners should follow this!*)
 1. Dump data_e into any folder you would like using Preapp File by dropping `data_e.cpk` from your P4G install onto the `preappfile.exe`, NOT INTO THE FOLDER, ON TOP OF THE EXE FILE
-2. Make sure the folder is named `data_e` and move it to your Documents folder
+2. Make sure the dump you created is named `data_e` and move it to your Documents folder
 3. Download [`install.bat`](https://raw.githubusercontent.com/swindlesmccoop/P4GPC-Randomizer/main/install.bat) by following the previous link, pressing `Ctrl`+`S`, and saving it as `install.bat`, NOT `install.bat.txt`
 4. Go to where you downloaded the file and double click it
 5. Follow the instructions that it gives you
