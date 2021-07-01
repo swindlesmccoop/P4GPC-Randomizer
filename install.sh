@@ -3,8 +3,9 @@ set -e
 
 #make username variable by assigning "whoami" output to it
 username=$(whoami)
-echo Entering directory...
-cd /c/Users/"$username"/Documents/data_e
+echo Please drag and drop your data_e directory here and press enter:
+read dir
+cd $dir
 
 #makes sure that it's actually data_e and not some other folder
 echo Checking validity of dump...
