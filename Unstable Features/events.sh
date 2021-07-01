@@ -11,7 +11,7 @@ paste <(printf "%s\n" *) <(printf "%s\n" * | shuf) |
 for f in *.new; do mv -- "$f" "${f%.new}"; done 
 }
 
-cd commu/event
+cd event
 
 for d in */; do
     cd $d
