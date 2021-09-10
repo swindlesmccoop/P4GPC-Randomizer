@@ -5,7 +5,7 @@ set -e
 username=$(whoami)
 echo Please drag and drop your data_e directory here and press enter:
 read dir
-cd $dir
+cd "$dir"
 
 #makes sure that it's actually data_e and not some other folder
 echo Checking validity of dump...
@@ -30,7 +30,6 @@ mv *.sh ..
 cd ..
 rm -rf P4GPC-Randomizer
 
-#mark as executable and execute all scripts
-chmod +x *.sh
+#execute all scripts
 cd ..
 find data_e/ -maxdepth 1 -type f -executable -name '*.sh' -exec {} \;
