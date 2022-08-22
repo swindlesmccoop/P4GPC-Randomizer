@@ -1,5 +1,3 @@
-# Development moved to [CBPS Git](https://git.cbps.xyz/swindlesmccoop)
-
 ## General Info
 This is a work in progress. Please submit detailed issues in the `Issues` tab. Do not spam the `#p4g-help` channel on the Discord!
 
